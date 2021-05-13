@@ -1,5 +1,7 @@
 
-# Mojolicious Website to create portal for registered users to enter testimonials
+# Introduction to Mojolicious covering: Layouts, Templates, DB Management, Session Management
+
+This is the source code of the demonstartion discussed in: https://thecurioustechnoid.com/mojolicious-part1-homepage/
 
 
 
