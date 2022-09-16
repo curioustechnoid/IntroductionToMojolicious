@@ -20,7 +20,10 @@ sub displayLogin {
     my $self = shift;
 
     # If already logged in then direct to home page, if not display login page
-    if(&alreadyLoggedIn($self)){
+    # if(&alreadyLoggedIn($self)){
+    # If you are using Mojolicious v9.25 and above use this if statement as re-rendering is forbidden in the newer version
+    # Thank you @Paul and @Peter for pointing this out.
+    if($self->session('is_auth')){
 
             &welcome($self);
 
